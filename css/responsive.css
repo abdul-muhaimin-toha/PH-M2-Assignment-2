@@ -79,4 +79,17 @@
   .popular__right {
     width: 100%;
   }
+
+  /* Section destination Styles */
+  /************************/
+  .section-destination {
+    margin-bottom: 3rem;
+  }
+
+  .destination__gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 100%;
+  }
 }

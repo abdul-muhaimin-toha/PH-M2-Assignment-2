@@ -49,6 +49,33 @@ body {
   padding: 1.5rem;
 }
 
+.heading-primary {
+  color: var(--color-dark);
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.btn-primary {
+  align-self: flex-start;
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  border: 0;
+  color: var(--color-white);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1.6rem 2rem;
+  text-align: center;
+  transition: all 0.1s ease-out;
+}
+
+.btn-primary:hover {
+  background-color: #be4b12;
+}
+
 /* Section header Styles */
 /************************/
 
@@ -232,15 +259,6 @@ body {
   width: 50%;
 }
 
-.heading-primary {
-  color: var(--color-dark);
-  font-size: 4rem;
-  font-weight: 800;
-  line-height: normal;
-  text-align: left;
-  text-transform: capitalize;
-}
-
 .popular__text {
   display: flex;
   flex-direction: column;
@@ -254,29 +272,93 @@ body {
   margin-left: 3rem;
 }
 
-.btn-primary {
-  align-self: flex-start;
-  background-color: var(--color-primary);
-  border-radius: 0.5rem;
-  border: 0;
-  color: var(--color-white);
-  cursor: pointer;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: normal;
-  padding: 1.6rem 2rem;
-  text-align: center;
-  transition: all 0.1s ease-out;
-}
-
-.btn-primary:hover {
-  background-color: #be4b12;
-}
-
 .popular__right {
   width: 50%;
 }
 
 .popular__img {
   width: 100%;
+}
+
+/* Section destinations Styles */
+/************************/
+
+.section-destination {
+  margin-bottom: 10rem;
+}
+
+.destination {
+  text-align: center;
+  display: flex;
+  gap: 2.4rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+heading-primary--center {
+  text-align: center;
+}
+
+.heading-paragraph {
+  max-width: 64rem;
+}
+
+.destination__gallery {
+  margin-top: 2.4rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(3, 25rem);
+  gap: 2.4rem;
+}
+
+.destination__place {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.6rem;
+  height: 25rem;
+  width: 100%;
+}
+
+.destination__name {
+  color: var(--color-white);
+  font-size: 2.4rem;
+}
+
+.destination__place--1 {
+  background: url("../resources/maldives.png");
+  grid-column: 1 / 6;
+}
+
+.destination__place--2 {
+  background: url("../resources/indonesia.png");
+  grid-column: 6 / 11;
+}
+
+.destination__place--3 {
+  background: url("../resources/srilanka.png");
+  grid-column: 1 / 4;
+}
+
+.destination__place--4 {
+  background: url("../resources/north-america.png");
+  grid-column: 4 / 8;
+}
+
+.destination__place--5 {
+  background: url("../resources/kashmir.png");
+  grid-column: 8 / 11;
+}
+
+.destination__place--6 {
+  background: url("../resources/khagrachori.png");
+  grid-column: 1 / 6;
+}
+
+.destination__place--7 {
+  background: url("../resources/bandorban.png");
+  grid-column: 6 / span 1;
 }
