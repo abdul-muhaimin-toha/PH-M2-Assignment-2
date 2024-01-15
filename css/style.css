@@ -57,6 +57,15 @@ body {
   text-transform: capitalize;
 }
 
+heading-primary--center {
+  text-align: center;
+}
+
+.heading-paragraph {
+  max-width: 64rem;
+  text-align: center;
+}
+
 .btn-primary {
   align-self: flex-start;
   background-color: var(--color-primary);
@@ -295,14 +304,6 @@ body {
   align-items: center;
 }
 
-heading-primary--center {
-  text-align: center;
-}
-
-.heading-paragraph {
-  max-width: 64rem;
-}
-
 .destination__gallery {
   margin-top: 2.4rem;
   display: grid;
@@ -361,4 +362,58 @@ heading-primary--center {
 .destination__place--7 {
   background: url("../resources/bandorban.png");
   grid-column: 6 / span 1;
+}
+
+/* Section services Styles */
+/************************/
+
+.section-services {
+  margin-bottom: 10rem;
+}
+.services {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.services__card-container {
+  display: grid;
+  gap: 2.4rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 4.8rem;
+}
+
+.services__card {
+  background-color: hsla(0, 7%, 86%, 0.3);
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 4rem;
+}
+
+.services__card--1 {
+  grid-column: 1/3;
+}
+
+.services__card--2 {
+  grid-column: 3/6;
+}
+
+.services__card--3 {
+  grid-column: 2/4;
+}
+
+.services__icon {
+  color: var(--color-primary);
+  font-size: 4rem;
+}
+
+.heading-secondary {
+  color: var(--color-dark);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
 }

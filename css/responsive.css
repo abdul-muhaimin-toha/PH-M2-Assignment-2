@@ -82,6 +82,7 @@
 
   /* Section destination Styles */
   /************************/
+
   .section-destination {
     margin-bottom: 3rem;
   }
@@ -91,5 +92,28 @@
     flex-direction: column;
     gap: 2.4rem;
     width: 100%;
+  }
+
+  /* Section services Styles */
+  /************************/
+
+  .section-services {
+    margin-bottom: 3rem;
+  }
+
+  .services__card-container {
+    margin-top: 2.8rem;
+  }
+
+  .services__card--1 {
+    grid-column: 1/-1;
+  }
+
+  .services__card--2 {
+    grid-column: 1/-1;
+  }
+
+  .services__card--3 {
+    grid-column: 1/-1;
   }
 }
