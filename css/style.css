@@ -46,6 +46,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 117rem;
+  padding: 1.5rem;
 }
 
 /* Section header Styles */
@@ -78,7 +79,7 @@ body {
 
 .logo-text {
   color: var(--color-dark);
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
@@ -121,12 +122,14 @@ body {
   padding: 1rem;
   text-decoration: none;
   transition: all 0.1s ease-out;
+  text-align: center;
 }
 
 .navigation-list-link-current:link,
 .navigation-list-link:hover,
 .navigation-list-link:active {
   color: var(--color-primary);
+  font-weight: 800;
 }
 
 /* Section hero Styles */
@@ -207,4 +210,73 @@ body {
 
 .hero-form-btn:hover {
   background-color: #be4b12;
+}
+
+/* Section popular tour Styles */
+/************************/
+
+.section-popular {
+  margin-bottom: 10rem;
+}
+
+.popular {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.popular__left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+.heading-primary {
+  color: var(--color-dark);
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: normal;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.popular__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.popular__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 3rem;
+}
+
+.btn-primary {
+  align-self: flex-start;
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  border: 0;
+  color: var(--color-white);
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1.6rem 2rem;
+  text-align: center;
+  transition: all 0.1s ease-out;
+}
+
+.btn-primary:hover {
+  background-color: #be4b12;
+}
+
+.popular__right {
+  width: 50%;
+}
+
+.popular__img {
+  width: 100%;
 }
