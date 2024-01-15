@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+
+  .navigation-list {
+    display: none;
+  }
+
+  .mobile-navigation {
+    display: block;
+  }
+
+  .hero {
+    height: 90vh;
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .hero-heading {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .hero-form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-form-where,
+  .hero-form-when,
+  .hero-form-type,
+  .hero-form-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,210 @@
+/* Font Import */
+/************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;800&display=swap");
+
+/* Variables */
+/************************/
+
+:root {
+  --body-color-light: #5a5a5d;
+  --body-color-dark: #424247;
+
+  --color-primary: #ff5400;
+
+  --color-dark: #131318;
+  --color-white: #fff;
+}
+
+/* Basic Styles */
+/************************/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--body-color-light);
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Reuseable Styles */
+/************************/
+
+.container {
+  margin: 0 auto;
+  max-width: 117rem;
+}
+
+/* Section header Styles */
+/************************/
+
+.section-header {
+  margin-bottom: 10rem;
+}
+
+/* Section navigation Styles */
+/************************/
+
+.navigation {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.navigation-logo {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 4.8rem;
+}
+
+.logo-text {
+  color: var(--color-dark);
+  font-size: 36px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.logo-text--colored {
+  color: var(--color-primary);
+}
+
+.navigation-link-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  align-items: center;
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.mobile-navigation {
+  display: none;
+  font-size: 3.5rem;
+  color: var(--color-dark);
+}
+
+.navigation-list-item {
+  padding: 0.5rem;
+}
+
+.navigation-list-link:link,
+.navigation-list-link:visited {
+  color: var(--body-color-dark);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+  padding: 1rem;
+  text-decoration: none;
+  transition: all 0.1s ease-out;
+}
+
+.navigation-list-link-current:link,
+.navigation-list-link:hover,
+.navigation-list-link:active {
+  color: var(--color-primary);
+}
+
+/* Section hero Styles */
+/************************/
+
+.hero {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../resources/hero-bg.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  align-items: center;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  height: 50rem;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.hero-heading {
+  color: var(--color-white);
+  font-size: 6.5rem;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.hero-paragraph {
+  color: var(--color-white);
+  max-width: 67rem;
+  text-align: center;
+}
+
+.hero-form {
+  align-items: center;
+  background: #ffffff4d;
+  border-radius: 8px;
+  display: flex;
+  gap: 2.5rem;
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.hero-form-where,
+.hero-form-when,
+.hero-form-type {
+  border-radius: 0.5rem;
+  border: 0;
+  color: var(--color-dark);
+  line-height: normal;
+  outline: 0;
+  padding: 1.6rem 2rem;
+  text-align: left;
+}
+
+.hero-form-btn {
+  align-items: center;
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  border: 0;
+  color: var(--color-white);
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  gap: 1rem;
+  justify-content: center;
+  line-height: normal;
+  padding: 1.6rem 2rem;
+  text-align: center;
+  transition: all 0.1s ease-out;
+}
+
+.hero-form-btn:hover {
+  background-color: #be4b12;
+}
