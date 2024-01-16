@@ -56,6 +56,10 @@
     width: 100%;
   }
 
+  .hero-form-container {
+    width: 100%;
+  }
+
   .hero-form-where,
   .hero-form-when,
   .hero-form-type,
@@ -115,5 +119,25 @@
 
   .services__card--3 {
     grid-column: 1/-1;
+  }
+
+  /* Section deals and discount Styles */
+  /************************/
+
+  .section-discount {
+    margin-bottom: 3rem;
+  }
+
+  .deals__card-container {
+    padding: 2rem;
+  }
+
+  .deals__card {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .deals__icons-container {
+    flex-wrap: wrap;
   }
 }
