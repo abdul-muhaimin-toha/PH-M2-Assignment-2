@@ -321,60 +321,61 @@ heading-primary--center {
   margin-top: 2.4rem;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(3, 25rem);
+  grid-template-rows: repeat(3, 30rem);
   gap: 2.4rem;
 }
 
 .destination__place {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 1.6rem;
-  height: 25rem;
+  color: red;
   width: 100%;
+  height: 30rem;
+  position: relative;
+}
+
+.destination__place img {
+  width: 100%;
+  height: 100%;
 }
 
 .destination__name {
   color: var(--color-white);
   font-size: 2.4rem;
+  position: absolute;
 }
 
 .destination__place--1 {
-  background: url("../resources/maldives.png");
   grid-column: 1 / 6;
 }
 
 .destination__place--2 {
-  background: url("../resources/indonesia.png");
   grid-column: 6 / 11;
 }
 
 .destination__place--3 {
-  background: url("../resources/srilanka.png");
   grid-column: 1 / 4;
+  grid-row: 2/ 3;
 }
 
 .destination__place--4 {
-  background: url("../resources/north-america.png");
   grid-column: 4 / 8;
+  grid-row: 2/ 3;
 }
 
 .destination__place--5 {
-  background: url("../resources/kashmir.png");
   grid-column: 8 / 11;
+  grid-row: 2/ 3;
 }
 
 .destination__place--6 {
-  background: url("../resources/khagrachori.png");
   grid-column: 1 / 6;
 }
 
 .destination__place--7 {
-  background: url("../resources/bandorban.png");
-  grid-column: 6 / 9;
+  grid-column: 6 / 11;
 }
 
 /* Section services Styles */
@@ -610,6 +611,35 @@ heading-primary--center {
   right: 2rem;
   bottom: 7rem;
   transform: rotate(-30deg);
+}
+
+/* Section contact Styles */
+/************************/
+
+.section-contact {
+  margin-bottom: 10rem;
+  background-color: var(--color-dark);
+}
+
+.contact {
+  color: #ccc6c6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  gap: 2.4rem;
+}
+
+.contact__heading {
+  color: var(--color-white);
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.contact__paragraph {
+  color: var(--color-white);
 }
 
 /* Section footer Styles */
