@@ -326,8 +326,8 @@ heading-primary--center {
 }
 
 .destination__place {
-  background-position: center center;
-  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -374,7 +374,7 @@ heading-primary--center {
 
 .destination__place--7 {
   background: url("../resources/bandorban.png");
-  grid-column: 6 / span 1;
+  grid-column: 6 / 9;
 }
 
 /* Section services Styles */
@@ -610,4 +610,48 @@ heading-primary--center {
   right: 2rem;
   bottom: 7rem;
   transform: rotate(-30deg);
+}
+
+/* Section footer Styles */
+/************************/
+
+.section-footer {
+  background-color: #eeeeee;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 10rem;
+  align-items: center;
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.footer__paragraph {
+  max-width: 76rem;
+  text-align: center;
+  color: var(--body-color-dark);
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.footer__social-icon {
+  color: var(--color-dark);
+  font-size: 4rem;
+}
+
+.footer__copy {
+  text-transform: capitalize;
 }
