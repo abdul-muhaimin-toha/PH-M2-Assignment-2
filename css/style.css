@@ -426,7 +426,7 @@ heading-primary--center {
 
 .heading-secondary {
   color: var(--color-dark);
-  font-size: 24px;
+  font-size: 2.4rem;
   font-style: normal;
   font-weight: 800;
   text-transform: uppercase;
@@ -639,6 +639,7 @@ heading-primary--center {
 
 .contact__paragraph {
   color: var(--color-white);
+  text-align: center;
 }
 
 /* Section footer Styles */
@@ -651,8 +652,9 @@ heading-primary--center {
 .footer {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
   padding: 10rem;
+  padding-bottom: 5rem;
   align-items: center;
 }
 
@@ -683,4 +685,8 @@ heading-primary--center {
 
 .footer__copy {
   text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #b4b0b0;
+  padding-top: 2rem;
 }

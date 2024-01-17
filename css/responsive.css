@@ -178,6 +178,13 @@
     height: 35rem;
   }
 
+  /* Section contact Styles */
+  /************************/
+
+  .contact__heading {
+    font-size: 2rem;
+  }
+
   /* Section footer Styles */
   /************************/
 
