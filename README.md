@@ -1,8 +1,8 @@
-# PH-M2-Assignment-2
+# PH-M3-Assignment-3
 
-## Travel Bee
+## 
 
-Milestone: 2, Assignment: 2 (Travel Bee). Project based assgnment for Progmming Hero course.
+Milestone: 3, Assignment: 3 (Hockey's). Project based assignment for Progmming Hero course.
 
-[Live Website Link](https://abdul-muhaimin-toha.github.io/PH-M2-Assignment-2/)  
-[Project Repository Link](https://github.com/abdul-muhaimin-toha/PH-M2-Assignment-2)
+[Live Website Link](https://abdul-muhaimin-toha.github.io/PH-M3-Assignment-3/)  
+[Project Repository Link](https://github.com/abdul-muhaimin-toha/PH-M3-Assignment-3)
